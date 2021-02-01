@@ -1,0 +1,2 @@
+jwt:
+  secret: dummy-local-secret

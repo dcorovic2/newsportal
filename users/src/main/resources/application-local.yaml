@@ -1,0 +1,28 @@
+spring:
+  application:
+    name: users-microservice
+  main:
+    lazy-initialization: false
+  jpa:
+    properties:
+      hibernate:
+        format_sql: true
+        jdbc:
+          lob:
+            non_contextual_creation: true
+        default_schema: users
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    generate-ddl: false
+    hibernate:
+      ddl-auto: validate
+  datasource:
+    url: jdbc:postgresql://localhost:5432/newsportal
+    username: postgres
+    password: root
+    driverClassName: org.postgresql.Driver
+  flyway:
+    enabled: true
+    schemas: users
+server:
+  port: 8090
+
