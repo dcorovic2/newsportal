@@ -22,11 +22,11 @@ auth-service
 
   - authorize endpoint - tbd
 
-zuul gataway - tbb
+zuul gataway - tbd
 
 manage users permissions (for endpoints) on gataway - tbd
 
-dockerise applications - tdb
+dockerize applications - tdb
 
-make docker-compose up and expose gateway endpoint - tbd
+make docker-compose up and expose gateway port - tbd
   
